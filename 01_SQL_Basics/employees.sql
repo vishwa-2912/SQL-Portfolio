@@ -5,7 +5,7 @@ CREATE TABLE employees (
     first_name VARCHAR(50),
     last_name VARCHAR(50),
     age INT,
-    department VARCHAR(50),
+    department_id INT,
     salary DECIMAL(10,2),
     city VARCHAR(50)
 );
