@@ -13,3 +13,10 @@ SELECT *
 FROM employees
 WHERE department = 'IT'
 OR department = 'Finance';
+
+
+-- Employees who are NOT in HR
+
+SELECT *
+FROM employees
+WHERE NOT department = 'HR';
